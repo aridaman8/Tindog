@@ -1,0 +1,181 @@
+#title {
+  background-color: #ff4c68;
+
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  color: white;
+  padding-bottom: 25px;
+}
+
+h2{
+font-family: "Montserrat";
+font-size: 3rem;
+line-height: 1.5;
+}
+h3 {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Navbar */
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.fap {
+  padding-right: 6%;
+}
+
+.navbar {
+  padding: 0 0 3rem;
+}
+
+.navbar-brand {
+  font-size: 2.8rem;
+  font-family: 'Ubuntu', sans-serif;
+  position: relative;
+
+  right: 158px;
+  padding: 0;
+}
+
+.nav-item {
+  font-size: 1.3rem;
+  padding: 20px;
+  font-family: 'Montserrat-light', sans-serif;
+  position: relative;
+  left: 100px;
+}
+
+.btn-dark {
+  margin-right: 3.5%;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Features */
+
+.col-lg-4 {
+  text-align: center;
+  padding: 5%
+}
+
+.fa-4x {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.fa-4x:hover {
+  color: #ff4c68;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+/* Testimonials */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color:#fff;
+
+}
+
+.carousel-item{
+
+    padding: 7% 15%;
+}
+
+.testimonials-img{
+  width: 20%;
+  margin: 20px;
+  border-radius: 100%
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+
+}
+.press-logo{
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+
+/* Pricing */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+
+@media (max-width:993px) {
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+     padding-top: 4%;
+  }
+  #title{
+    text-align: center;
+  }
+  .navbar-brand{
+    position: static;
+  }
+
+}
+
+/* CTA */
+
+#cta{
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-text{
+  color: #fff;
+  font-size: 3.5rem;
+  padding-bottom: 3%;
+  line-height: 1.5;
+
+}
+.fa-cta{
+padding-right: 6%;
+}
+
+/* Footer */
+#footer{
+  padding:7% 15%;
+  text-align: center;
+}
+
+.fk{
+  padding-right: 2%;
+padding-bottom:3%;
+
+}
+.ff{
+  font-size: 1.5rem;
+}
